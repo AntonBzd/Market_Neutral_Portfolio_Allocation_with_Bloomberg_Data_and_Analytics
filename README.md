@@ -1,6 +1,6 @@
 # Bloomberg Market-Neutral Allocation Backtester (SP500)
 
-Ce projet contient un petit moteur de back-testing destiné à construire et analyser des portefeuilles market-neutral à partir de données de prix issus de Bloomberg.
+Ce projet contient un petit moteur de backtesting destiné à construire et analyser des portefeuilles market-neutral à partir de données de prix issus de Bloomberg.
 
 ---
 
