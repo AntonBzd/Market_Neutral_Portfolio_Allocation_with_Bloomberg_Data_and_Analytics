@@ -32,30 +32,31 @@ Ce projet contient un petit moteur de back-testing destiné à construire et ana
 Voici les résultats de l'allocation sur les 10 dernières années, performances long-short market neutral pas attrayante, long ou trend aurait peut-être était plus intéressante.
 
 **Momentum L/S**
-- Cumulative return: 0.11071280761155
-- Max drawdown: -0.16472496067804188
-- Sharpe: 0.1576270328690739
+- Cumulative return: 0.11
+- Max drawdown: -0.16
+- Sharpe: 0.16
 
 **Long leg (winners, 100%)**
-- Cumulative return: 4.572750089987913
-- Max drawdown: -0.19955179652801724
-- Sharpe: 1.179814663690594
+- Cumulative return: 4.57
+- Max drawdown: -0.19
+- Sharpe: 1.18
 
 **Short underlying (losers, 100% long-equivalent)**
-- Cumulative return: 3.0224291990566066
-- Max drawdown: -0.3065857863672721
-- Sharpe: 0.8464920012712821
+- Cumulative return: 3.02
+- Max drawdown: -0.31
+- Sharpe: 0.85
 
 **Benchmark SPX**
-- Cumulative return: 2.3688863642984073
-- Max drawdown: -0.2476952192321734
-- Sharpe: 0.9601631660100296
+- Cumulative return: 2.37
+- Max drawdown: -0.25
+- Sharpe: 0.96
 
----
 
 ![Texte alternatif](images/Portfolio_Benchmark_Performance.png)
 
 ![Texte alternatif](images/Long_Short_Legs_Performance_Contributions.png)
+
+---
 
 ## BBU et Port Bloomberg
 
