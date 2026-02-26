@@ -31,29 +31,39 @@ Ce projet contient un petit moteur de back-testing destiné à construire et ana
 
 Voici les résultats de l'allocation sur les 10 dernières années, performances long-short market neutral pas attrayante, long ou trend aurait peut-être était plus intéressante.
 
-=== Momentum L/S  ===
-Cumulative return: 0.11071280761155
-Max drawdown: -0.16472496067804188
-Sharpe: 0.1576270328690739
+**Momentum L/S**
+- Cumulative return: 0.11071280761155
+- Max drawdown: -0.16472496067804188
+- Sharpe: 0.1576270328690739
 
-=== Long leg (winners, 100%) ===
-Cumulative return: 4.572750089987913
-Max drawdown: -0.19955179652801724
-Sharpe: 1.179814663690594
+**Long leg (winners, 100%)**
+- Cumulative return: 4.572750089987913
+- Max drawdown: -0.19955179652801724
+- Sharpe: 1.179814663690594
 
-=== Short underlying (losers, 100% long-equivalent) ===
-Cumulative return: 3.0224291990566066
-Max drawdown: -0.3065857863672721
-Sharpe: 0.8464920012712821
+**Short underlying (losers, 100% long-equivalent)**
+- Cumulative return: 3.0224291990566066
+- Max drawdown: -0.3065857863672721
+- Sharpe: 0.8464920012712821
 
-=== Benchmark SPX ===
-Cumulative return: 2.3688863642984073
-Max drawdown: -0.2476952192321734
-Sharpe: 0.9601631660100296
+**Benchmark SPX**
+- Cumulative return: 2.3688863642984073
+- Max drawdown: -0.2476952192321734
+- Sharpe: 0.9601631660100296
 
 ---
 
+![Texte alternatif](images/Portfolio_Benchmark_Performance.png)
+
+![Texte alternatif](images/Long_Short_Legs_Performance_Contributions.png)
+
 ## BBU et Port Bloomberg
 
-Le code met également en forme un fichier Excel prêt à l'import via BBU Bloomberg contenant les pondérations mensuelles de la stratégie d'allocation.
+Le code met également en forme un fichier Excel prêt à l'import via BBU Bloomberg contenant les pondérations mensuelles de la stratégie d'allocation. Ce qui permet d'analyser le portefeuille avec les analytics Bloomberg.
+
+![Texte alternatif](images/Portfolio_Uploaded_1.png)
+![Texte alternatif](images/Positions_2.png)
+![Texte alternatif](images/Aggregate.png)
+![Texte alternatif](images/Portfolio_Total_Return_Compared_with_DJI.png)
+
 
