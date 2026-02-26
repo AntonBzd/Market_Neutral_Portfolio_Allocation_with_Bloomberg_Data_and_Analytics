@@ -7,7 +7,7 @@ Ce projet contient un petit moteur de backtesting destiné à construire et anal
 ## Architecture
 
 - **`main.py`** – point d’entrée : orchestre le flux (chargement des données, allocation, calcul des métriques, visualisations des performances).
-- **`bloomberg.py`** – gestion de la récupération des données Bloomberg, dans notre cas extraction des composants du SP500 sur les 10 dernières années en veillant à ne pas se faire avoir par le biais du survivant (BDS + BDH).
+- **`bloomberg.py`** – gestion de la récupération des données Bloomberg, dans notre cas extraction des composants du SP500 sur les 10 dernières années en veillant à ne pas se faire avoir par le biais du survivant (BDS + BDH via BLPAPI).
 - **`allocation.py`** – logique de construction du portefeuille, dans notre cas on utilise une allocation mensuelle **cross-sectional momentum** :
   - chaque mois classement des derniers rendements **12 mois** des ~500 compagnies sans look-ahead bias.
   - **long** les deux premiers déciles pondéré de manière égale.
